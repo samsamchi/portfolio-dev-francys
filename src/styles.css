@@ -1,3 +1,13 @@
+/* Card branco para seções principais */
+.section-card {
+	background: #fff;
+	border-radius: 1.2rem;
+	box-shadow: 0 2px 16px rgba(0,0,0,0.08);
+	padding: 2.5rem 2.5rem 2rem 2.5rem;
+	max-width: 900px;
+	margin: 0 auto;
+	margin-bottom: 2.5rem;
+}
 .main-footer {
 	background: #111;
 	color: #fff;
@@ -104,7 +114,7 @@ body {
 	gap: 2rem;
 	list-style: none;
 	margin: 0;
-	padding: 1rem 0;
+	padding: 2.0rem 0 2.0rem 0;
 }
 .navbar a {
 	text-decoration: none;
@@ -155,7 +165,7 @@ body {
 	gap: 2rem;
 }
 .project-card {
-	background: #fff;
+	background: #ffffff;
 	border-radius: 1rem;
 	box-shadow: 0 2px 12px rgba(0,0,0,0.06);
 	padding: 1.5rem;
@@ -221,4 +231,4 @@ body {
 		gap: 1rem;
 	}
 }
-/* You can add global styles to this file, and also import other style files */
+
