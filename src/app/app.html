@@ -1,16 +1,37 @@
 <nav class="navbar">
-  <ul>
-    <li><a href="#home">Início</a></li>
-    <li><a href="#about">Sobre</a></li>
-    <li><a href="#projects">Projetos</a></li>
-    <li><a href="#contact">Contato</a></li>
-    <li><a href="#info">Informações</a></li>
-  </ul>
+  <div class="navbar-content">
+    <div class="navbar-avatar-container">
+      <p-avatar image="/profile/sam_profile.jpg" class="navbar-avatar" size="normal" shape="circle"></p-avatar>
+      <a href="#home">Francys Samuel</a>
+    </div>
+
+    <ul class="navbar-menu">
+      <li><a href="#home">Início</a></li>
+      <li><a href="#about">Sobre</a></li>
+      <li><a href="#projects">Projetos</a></li>
+      <li><a href="#contact">Contato</a></li>
+      <li><a href="#info">Informações</a></li>
+    </ul>
+  </div>
 </nav>
 
 <section id="home" class="section home-section">
-  <h1>Seu Nome</h1>
-  <p>Desenvolvedor Front-end | UI/UX</p>
+  <model-viewer
+    src="/earth-cartoon/source/earth-cartoon.glb"
+    alt="Terra cartoon 3D"
+    auto-rotate
+    camera-controls
+    style="width: 100%; max-width: 340px; height: 340px; margin: 0 auto 1.5rem auto; display: block; background: transparent;"
+    interaction-prompt="none"
+    camera-orbit="0deg 80deg 350%"
+    min-camera-orbit="auto auto 250%"
+    max-camera-orbit="auto auto 400%"
+    field-of-view="60deg"
+    exposure="1.1"
+    shadow-intensity="1"
+    environment-image="neutral"
+  ></model-viewer>
+  <h2>Desenvolvedor Front-end | UI/UX</h2>
 </section>
 
 

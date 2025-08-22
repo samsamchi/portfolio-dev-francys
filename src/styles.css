@@ -1,3 +1,52 @@
+/* Navbar flexbox alinhamento avatar left, menu right */
+.navbar-content {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	max-width: 1200px;
+	margin: 0 auto;
+	padding: 0 2rem;
+	height: 100%;
+}
+
+.navbar-avatar-container {
+	display: flex;
+	align-items: center;
+}
+
+.navbar-menu {
+	display: flex;
+	align-items: center;
+	gap: 2.5rem;
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}
+
+.navbar-menu li a {
+	text-decoration: none;
+	color: #222;
+	font-size: 1.1rem;
+	font-weight: 400;
+	transition: color 0.2s;
+}
+/* Reduz o tamanho do nome principal */
+.main-title, .nome-francys {
+	font-size: 2rem !important;
+	font-weight: 600;
+}
+
+.navbar-menu li a:hover {
+	color: #007b8f;
+}
+/* Avatar do navbar alinhado e pequeno */
+.navbar-avatar {
+	vertical-align: middle;
+	margin-right: 0.7rem;
+	width: 3.5rem !important;
+	height: 3.5rem !important;
+	font-size: 2rem !important;
+}
 /* Card branco para seções principais */
 .section-card {
 	background: #fff;
@@ -54,7 +103,7 @@
 	font-size: 1.5rem;
 }
 .footer-icons a:hover {
-	color: #7c3aed;
+	color: #007b8f;
 	opacity: 1;
 }
 .footer-divider {
@@ -75,7 +124,7 @@
 	transition: color 0.2s;
 }
 .footer-copy a:hover {
-	color: #7c3aed;
+	color: #007b8f;
 }
 @media (max-width: 700px) {
 	.footer-content {
@@ -124,7 +173,7 @@ body {
 	transition: color 0.2s;
 }
 .navbar a:hover {
-	color: #7c3aed;
+	color: #007b8f;
 }
 
 .section {
@@ -144,7 +193,7 @@ body {
 	font-size: 3rem;
 	font-weight: 700;
 	margin-bottom: 0.5rem;
-	color: #7c3aed;
+	color: #007b8f;
 }
 .home-section p {
 	font-size: 1.3rem;
@@ -155,7 +204,7 @@ body {
 .projects-section h2,
 .contact-section h2 {
 	font-size: 2rem;
-	color: #7c3aed;
+	color: #007b8f;
 	margin-bottom: 1.5rem;
 }
 
@@ -205,7 +254,7 @@ body {
 	min-height: 120px;
 }
 .contact-form button {
-	background: #7c3aed;
+	background: #007b8f;
 	color: #fff;
 	border: none;
 	border-radius: 0.5rem;
@@ -216,7 +265,7 @@ body {
 	transition: background 0.2s;
 }
 .contact-form button:hover {
-	background: #5b21b6;
+	background: #0b98ae;
 }
 
 @media (max-width: 700px) {
