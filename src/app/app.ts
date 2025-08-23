@@ -1,14 +1,16 @@
 import { Component, signal, CUSTOM_ELEMENTS_SCHEMA } from '@angular/core';
 import { AvatarModule } from 'primeng/avatar';
-import { RouterOutlet } from '@angular/router';
-
+import { environment } from '../environments/environment';
 @Component({
   selector: 'app-root',
-  imports: [RouterOutlet, AvatarModule],
+  imports: [AvatarModule],
   templateUrl: './app.html',
-  styleUrl: './app.css',
+  styleUrls: ['./app.css'],
   schemas: [CUSTOM_ELEMENTS_SCHEMA]
 })
+
+
 export class App {
-  protected readonly title = signal('portfolio-dev-francys');
+  // Use the appName from environment as the displayed title
+  protected readonly title = signal(environment.appName );
 }

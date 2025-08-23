@@ -1,0 +1,27 @@
+# Dependências locais (não precisamos copiar pro container)
+node_modules
+npm-debug.log
+yarn-error.log
+package-lock.json
+
+# Builds locais
+dist
+tmp
+out-tsc
+
+# Configurações do sistema
+.DS_Store
+Thumbs.db
+
+# Arquivos de IDE/Editor
+.vscode
+.idea
+*.swp
+
+# Docker
+.dockerignore
+Dockerfile
+
+# Git
+.git
+.gitignore
