@@ -1,5 +1,14 @@
 .navbar-avatar-container a {
 	font-size: 2rem;
+	font-weight: 700 !important;
+	color: #222;
+	text-decoration: none;
+	margin-left: 0.7rem;
+	display: flex;
+	align-items: center;
+}
+.navbar-avatar-container a {
+	font-size: 2rem;
 	font-weight: 700;
 	color: #222;
 	text-decoration: none;
